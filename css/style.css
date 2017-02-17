@@ -1,0 +1,53 @@
+.fleft {float:left}
+.fright {float:right}
+.fcenter {float:none;text-align:center}
+.fclear {clear:both}
+.inner_copy {border:0;color:#f00;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+body {margin:10px;padding:10px;background:#F3F2ED url(../images/header2.jpg) repeat-x left top 74px;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#464646;padding-left:10px;padding-top:8px }
+h1, h2, h3 {margin:0;font-weight:normal;color:#549900}
+h1 {font-size:44px}
+h2 {font-size:18px}
+p, ul, ol {margin-top:0;line-height:240%;text-align:justify}
+a {color:#4E832F}
+a:hover {text-decoration:none}
+hr {display:none}
+.ok{margin-left:50px;font-family:consolas;font-weight:bold;font-size:15px;color:#330}
+.errores{display:none; position:absolute; font-family:consolas;font-weight:bold;font-size:13px;color:#330}
+textarea{resize:none; display:block;border-radius: 7px } 
+table{margin-left:50px}
+#lazo{ background:url(../images/lazo.png) no-repeat left; position:absolute;margin-top: -52px;margin-left:555px; width: 72px; height:400px}
+/* Header */
+#header-wrapper {height:60px; color:#330}
+#header {width:920px;margin:0 auto}
+
+/* Menu */
+#menu {float:left;width:600px}
+#menu ul {margin:0;list-style:none;line-height:normal}
+#menu li {background: url(../images/menu-button.png) no-repeat;display:block;position:absolute; width:150px; height:150px}
+#menu a {display:block;float:left;height:32px;padding:14px 20px 0 20px;letter-spacing:-1px;text-decoration:none;text-align:center;text-transform:lowercase;font-family: Verdana, Geneva, sans-serif;font-size:14px;font-weight:normal;color:#330}
+#menu a:hover {text-decoration:none}
+#menu .second {margin-left: 160px;}
+
+/* Pagina */
+#page-htop {width:1045px;margin:0 auto;padding:40px 0 15px 0;background:url(../images/header-book.png) no-repeat left top}
+#page-bgtop {width:1045px;margin:0 auto;}
+#page {width:1045px;margin:0 auto;background:#fff url(../images/body-book.png) repeat-y left 20px}
+
+/* Logo */
+#logo {width:990px;height:107px;margin:0 auto;background:url(../images/header.jpg) no-repeat left bottom}
+#logo h1, #logo p {padding-top:10px;margin:0;line-height:normal;font-weight:normal;color:#fff}
+#logo p {font-family:Georgia, "Times New Roman",Times,serif;font-size:13px;color:#330}
+#logo h1 {font-size:48px}
+#logo a {text-decoration:none;color:#fff}
+
+/* Contenido */
+#content {float:left;width:550px }
+
+/* Post */
+.post {margin-left:50px;margin-bottom:50px;padding-bottom:30px; margin-right:40px}
+
+/* Footer */
+#linea {background:url(../images/header-bottom.png) no-repeat; margin-left: 50px; position:absolute;padding-top:10px;padding-left:50px;width:400px;opacity:0.5}
+#linea2 {background:url(../images/header-bottom.png) no-repeat; margin-left: 540px;position:absolute;padding-top:10px; padding-left:50px;width:400px; opacity:0.5}
+#footer { width:1045px; height:112px;margin:0;background:url(../images/footer-book.png) no-repeat left bottom}
+#footer p { text-shadow: 0px 0px 10px #BA55D3;margin-left:200px;padding:20px 0 30px 10px;text-align:center;line-height:normal;font-family:"blackadder ITC";font-size:18px}
